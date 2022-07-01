@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+body {
+    background-color: #ff587d;
+    padding: 5%;
+  }
+.autoTypeContainer {
+    color: #ffce48;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    text-align: center;
+  }
+.fontSizeParagraph {
+    font-size: 30px;
+  }
+.autoTypeContainer h1 {
+    font-size: 70px;
+    font-weight: 600;
+  }
+.font {
+    color: white;
+    font-family: "Inconsolata", monospace;
+  }
+.carouselText {
+    align-content: center;
+    justify-content: center;
+    text-align: left;
+  }
+.carouselContainer {
+    margin-top: 10%;
+  }
+.carouselItemContainer {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+.agane {
+    bottom: 5%;
+    color: #ffce48;
+    position: absolute;
+    right: 5%;
+  }
+.agane:hover {
+    color: white;
+  }
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    color: #ffce48;
+    font-weight: 600;
+    height: 60%;
+    width: 60%;
+  }
