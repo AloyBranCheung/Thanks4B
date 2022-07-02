@@ -83,4 +83,12 @@ hr {
     padding-left: 15%;
     padding-right: 15%;
   }
+  hr {
+    border-color: white;
+    border-style: dotted none none;
+    border-width: 10px;
+    opacity: 90%;
+    width: 15%;
+    margin: 15% auto 0 auto ;
+  }
 }
