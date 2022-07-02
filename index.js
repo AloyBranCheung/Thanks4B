@@ -11,10 +11,8 @@ var typed = new Typed(".auto-type", {
   loop: false,
 });
 
-
-function reloadPage(){
-    $(".arrow").click(function(){
-        location.reload();
-    })
-
+function reloadPage() {
+  $(".arrow").click(function () {
+    location.reload();
+  });
 }
