@@ -13,7 +13,7 @@ var typed = new Typed(".auto-type", {
 
 
 function reloadPage(){
-    $(".agane").click(function(){
+    $(".arrow").click(function(){
         location.reload();
     })
 
