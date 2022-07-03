@@ -122,4 +122,8 @@ a:hover{
     opacity: 90%;
     width: 30%;
   }
+
+  .carouselText{
+    font-size: 0.5rem;
+  }
 }
