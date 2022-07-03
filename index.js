@@ -1,3 +1,9 @@
+new fullpage('#fullpage', {
+	//options here
+	autoScrolling:true,
+  navigation:true,
+});
+
 var typed = new Typed(".auto-type", {
   strings: [
     "Thanks <span style='color:#ffce48'>4B.</span>",
@@ -11,8 +17,11 @@ var typed = new Typed(".auto-type", {
   loop: false,
 });
 
+
+
 function reloadPage() {
   $(".arrow").click(function () {
     location.reload();
   });
 }
+
